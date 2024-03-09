@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .div1{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            border: 2px solid red;
+            animation-name: More;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes More {
+            from{
+                background-color: chocolate;
+
+            }
+            to{
+                background-color: rgb(160, 105, 22);
+            }
+        }
+        @keyframes More {
+            0%{background-color: rebeccapurple;}
+            25%{background-color: rgb(51, 153, 141);}
+            50%{background-color: rgb(51, 153, 70);}
+            75%{background-color: rgb(153, 51, 51);}
+            100%{background-color: rgb(230, 13, 13);}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">animation</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Slider</title>
+    <style>
+        .div1{
+            height: 300px;
+            width: 500px;
+            position: absolute;
+            left: 10%;
+            top: 15%;
+            animation-name: More;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-duration: reverse;
+        }
+        
+        @keyframes More {
+            0%{background-image: url(images1.jpg);background-repeat: no-repeat; background-size: cover;}
+            25%{background-image: url(images4.jpg);background-repeat: no-repeat; background-size: cover;}
+            50%{background-image: url(images5.jpg);background-repeat: no-repeat; background-size: cover;}
+            75%{background-image: url(images6.jpg);background-repeat: no-repeat; background-size: cover;}
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div class="div1"></div>
+</body>
+</html>

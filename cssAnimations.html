@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animations</title>
+    <style>
+        .div1{
+            height: 800px;
+            width: 800px;
+            background-color: rgb(255, 0, 106);
+            border: 1px solid black;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-name: example;
+            /* animation-direction: reverse; */
+            /* animation-play-state: running; */
+            /* animation-timing-function: calc(100); */
+        }
+        @keyframes example {
+            /* from{
+                background-color: rgb(255, 0, 106);
+            }
+            to{
+                background-color: rgb(225, 0, 255);
+            } */
+            /* 0%{background-color: red;}
+            25%{background-color: yellow;}
+            50%{background-color: blue;}
+            75%{background-color: green;}
+            100%{background-color: aqua;} */
+
+            0%{background-image: url(https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=600);}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        Animations
+    </div>
+    
+</body>
+</html>

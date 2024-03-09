@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Table</title>
+    <link rel="stylesheet" href="cssTable.css">
+    <style>
+        caption{
+            caption-side: top;
+        }
+        
+    
+        
+        table,th,td{
+            border: 1px solid black;
+            /* border-collapse: separate; */
+            border-collapse: collapse;
+            border-spacing: 15px 15px;
+            /* empty-cells: show; */
+            /* padding: 20px; */
+            height: 50px;
+            /* width: 120px; */
+            
+            
+        }
+        th{
+            /* vertical-align: bottom; */
+            /* background-color: rgb(241, 110, 59); */
+            /* color: white; */
+        }
+        /* tr:hover{
+            background-color: gray;
+        } */
+        tr:nth-child(odd){
+            background-color: rgb(0, 255, 149);
+        }
+        tr:nth-child(even){
+            background-color: rgb(148, 240, 73);
+        }
+        
+        td{
+            /* vertical-align: bottom; */
+        }
+    </style>
+</head>
+<body>
+    <table border="n" >
+        <caption>Student List</caption>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>Brach</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manish </td>
+                <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia placeat fugit? Aliquam ullam nesciunt, consectetur fugit quos corrupti nostrum. </td> -->
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+           <tr>
+                <td>Archit </td>
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+            <tr>
+                <td>Atul </td>
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+           <tr>
+                <td>Sujeet </td>
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+            <tr>
+                <td>Yash </td>
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+            <tr>
+                <td>Rahul </td>
+                <td>Electroinc</td>
+                <td>Final Year</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
